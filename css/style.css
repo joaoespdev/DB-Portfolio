@@ -1,0 +1,252 @@
+@font-face {
+    font-family: robotoflex-regular;
+    src: url(/fonts/robotoflex-regular.ttf);
+}
+
+@font-face {
+    font-family: tt-supermolot-regular;
+    src: url(/fonts/tt-supermolot-regular.otf);
+}
+
+@font-face {
+    font-family: tt-supermolot-bold;
+    src: url(/fonts/tt-supermolot-bold.ttf);
+}
+
+@font-face {
+    font-family: robotoflex-variants;
+    src: url(/fonts/robotoflex-variants.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+}
+
+/*-=-=-=-=-=-=-=-=-=-=- NAV BAR -=-=-=-=-=-=-=-=-=-=-*/
+
+a {
+    color: #4e64c5;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logodb {
+    height: 12vh;
+    margin-left: 10vh;
+}
+
+nav {
+    display: flex;/*elementos um ao lado do outro*/
+    align-items: center; /*Verticalmente*/
+    font-family: tt-supermolot-bold;
+    background: #85d4f4;
+    height: 16vh;
+    width: 100%;
+    z-index: 1000; /*garante que o nav fique acima de outros elementos*/
+}
+
+main {
+    background: #ffffff;
+    background-size: cover;
+    height: 140vh; 
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    letter-spacing: 0.2vh;
+    margin-left: 18vh;
+}
+
+.socialMedia {
+    list-style: none;
+    display: flex;
+    margin-left: 30vh;
+}
+
+.socialMedia li {
+    letter-spacing: 0.2vh;
+    margin-left: 2vh;
+
+}
+
+.socialMedia img {
+    height: 5vh; /* Ajuste o tamanho das imagens para diminuir */
+    width: auto; /* Mantém a proporção da imagem */
+    transition: 0.3s; /* Adiciona transição para efeito de hover */
+}
+
+.socialMedia img:hover {
+    opacity: 0.7; /* Efeito de hover nas imagens */
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
+.textos {
+    margin-right: 18vh;
+    margin-left: 10vh;
+}
+
+.meuNomeE {
+    font-family: tt-supermolot-bold;
+    font-size: 6vh;
+    margin-top: 13vh;
+}
+
+.nome {
+    font-family: robotoflex-variants;
+    font-size: 12vh;
+    margin-top: 2vh;
+}
+
+.souTrainee {
+    font-family: tt-supermolot-regular;
+    font-size: 6vh;
+    margin-top: 1vh;
+}
+
+.sobreMim {
+    font-family: tt-supermolot-bold;
+    font-size: 4vh;
+    margin-top: 17vh;
+}
+
+.textoSobreMim {
+    font-family: robotoflex-regular;
+    font-size: 3vh;
+    margin-top: 3vh;
+}
+
+.visaoGeral {
+    display: flex;
+    flex-direction: row;
+}
+
+.fotoJoao {
+    height: 50vh;
+    margin-left: 10vh;
+    display: flex;
+    margin-top: 13vh;
+}
+
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vh;
+}
+
+.habilidadesTexto {
+    font-family: tt-supermolot-bold;
+    font-size: 4vh;
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+}
+
+.backEnd {
+    font-family: tt-supermolot-bold;
+}
+
+.backEndLista {
+    font-family: robotoflex-regular;
+    margin-left: 3vh;
+}
+
+.frontEnd {
+    font-family: tt-supermolot-bold;
+    margin-top: 6vh;
+}
+
+.frontEndLista {
+    font-family: robotoflex-regular;
+    margin-left: 3vh;
+}
+
+.backListaNivelDIV, .frontListaNivelDIV {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.backListaNivel, .frontListaNivel {}
+
+.backListaNivel img, .frontListaNivel img {
+    width: 17vh; /* Ajuste conforme necessário */
+    height: 3vh; /* Ajuste conforme necessário */
+    margin-left: 8vh;
+}
+
+.backListaNivel li {
+    list-style: none;
+    height: vh;
+}
+
+.frontListaNivel li {
+    list-style: none;
+}
+
+/*PERGUNTAR PRO GPT COMO NIVELAR A LISTA DE IMAGEM COM A LISTA NORMAL*/
+
+@media (max-width: 1150px) {
+    .nav-container {
+        flex-direction: column; /* Alinha os itens verticalmente */
+        height: auto;
+        padding: 2vh;
+    }
+
+    .logodb {
+        height: 10vh;
+        margin-bottom: 2vh; /* Adiciona espaçamento entre o logo e o menu */
+        margin-left: 0;
+    }
+
+    .menu {
+        flex-direction: column; /* Alinha os itens do menu verticalmente */
+        align-items: center; /* Centraliza os itens do menu */
+        width: 100%; /* Garante que o menu ocupe toda a largura disponível */
+        margin-top: 2vh; /* Espaçamento entre o logo e o menu */
+    }
+
+    .menu li {
+        margin-left: 0; /* Remove o margin-left quando o menu for vertical */
+        margin-bottom: 2vh; /* Adiciona espaçamento entre os itens */
+    }
+
+
+    .socialMedia {
+        justify-content: center; /* Centraliza os itens do menu */
+        width: 100%; /* Garante que o menu ocupe toda a largura disponível */
+        margin-top: 2vh; /* Espaçamento entre o logo e o menu */
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .socialMedia li {
+        margin: 2vh; /*espaçamento entre os itens da lista e ao redor*/
+        margin-bottom: 2vh; /* Adiciona espaçamento entre os itens */
+    }
+
+    main {
+        display: flex;
+        flex-direction: column; /* Alinha os itens verticalmente */
+        height: 310vh;
+        padding: 2vh;
+    }
+
+    .visaoGeral {
+        flex-direction: column; /* Alinha os elementos em coluna ao invés de lado a lado */
+        align-items: center; /* Centraliza os elementos */
+    }
+
+}
