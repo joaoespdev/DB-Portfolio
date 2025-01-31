@@ -99,34 +99,16 @@ main {
     margin-left: 10vh;
 }
 
-.meuNomeE {
+.meus {
     font-family: tt-supermolot-bold;
     font-size: 6vh;
     margin-top: 13vh;
 }
 
-.nome {
+.projetos {
     font-family: robotoflex-variants;
     font-size: 12vh;
     margin-top: 2vh;
-}
-
-.souTrainee {
-    font-family: tt-supermolot-regular;
-    font-size: 6vh;
-    margin-top: 1vh;
-}
-
-.sobreMim {
-    font-family: tt-supermolot-bold;
-    font-size: 4vh;
-    margin-top: 17vh;
-}
-
-.textoSobreMim {
-    font-family: robotoflex-regular;
-    font-size: 3vh;
-    margin-top: 3vh;
 }
 
 .visaoGeral {
@@ -134,66 +116,82 @@ main {
     flex-direction: row;
 }
 
-.fotoJoao {
-    height: 50vh;
-    margin-left: 10vh;
-    display: flex;
-    margin-top: 13vh;
-}
-
-.habilidades {
-    display: flex;
-    flex-direction: column;
-    margin-left: 10vh;
-}
-
-.habilidadesTexto {
-    font-family: tt-supermolot-bold;
-    font-size: 4vh;
-    margin-top: 8vh;
-    margin-bottom: 5vh;
-}
-
-.backEnd {
-    font-family: tt-supermolot-bold;
-}
-
-.backEndLista {
-    font-family: robotoflex-regular;
-    margin-left: 3vh;
-}
-
-.frontEnd {
-    font-family: tt-supermolot-bold;
-    margin-top: 6vh;
-}
-
-.frontEndLista {
-    font-family: robotoflex-regular;
-    margin-left: 3vh;
-}
-
-.backListaNivelDIV, .frontListaNivelDIV {
+.cards {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
 }
 
-.backListaNivel, .frontListaNivel {}
-
-.backListaNivel img, .frontListaNivel img {
-    width: 17vh; /* Ajuste conforme necessário */
-    height: 3vh; /* Ajuste conforme necessário */
-    margin-left: 8vh;
+.cards img {
+    width: 100%;  /* Faz com que a imagem ocupe toda a largura da div */
+    height: 35%; /* Faz com que a imagem ocupe toda a altura da div */
+    object-fit: cover; /* Mantém o recorte adequado dentro da div */
+    border-radius: 1vh; /* Mantém o arredondamento das bordas */
 }
 
-.backListaNivel li {
-    list-style: none;
-    height: vh;
+.cards > .card1, 
+.cards > .card2, 
+.cards > .card3 {
+    background: rgb(239, 239, 239);
+    height: 68vh;
+    width: 43vh;
+    margin: 10vh;
+    flex: 1;/*Ocupem espaço igual dentro do flexbox*/
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 1vh;
 }
 
-.frontListaNivel li {
-    list-style: none;
+.cards h3 {
+    font-family: tt-supermolot-bold;
+    font-size: 4.5vh;
+    margin-left: 3vh;
+    margin-top: 2vh;
+}
+
+.ferramentas1 {
+    font-family: tt-supermolot-bold;
+    font-size: 2vh;
+    margin-left: 3vh;
+    margin-top: 2vh;
+    color: #ED177D;
+}
+
+.textoCard {
+    font-family: robotoflex-regular;
+    font-size: 2.2vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 2vh;
+}
+
+button {
+    font-family: tt-supermolot-bold;
+    font-size: 2.8vh;
+    border: none;
+}
+
+.acessar {
+    background: #414ABA;
+    color: #fff;
+    height: 6vh;
+    width: 38vh;
+    margin-left: 2.5vh;
+    margin-top: 2vh;
+    border-radius: 1vh;
+}
+
+.doisBotoes {
+    background: #414ABA;
+    color: #fff;
+    height: 6vh;
+    width: 19vh;
+    margin-left: 1vh;
+    margin-top: 2vh;
+    border-radius: 1vh;
+}
+
+.divBotoes {
+    margin-left: 0.5vh;
 }
 
 /*PERGUNTAR PRO GPT COMO NIVELAR A LISTA DE IMAGEM COM A LISTA NORMAL*/
@@ -239,7 +237,7 @@ main {
 
     main {
         display: flex;
-        flex-direction: column; /* Alinha os itens verticalmente */
+        flex-direction: column;
         height: 310vh;
         padding: 2vh;
     }
@@ -247,6 +245,38 @@ main {
     .visaoGeral {
         flex-direction: column; /* Alinha os elementos em coluna ao invés de lado a lado */
         align-items: center; /* Centraliza os elementos */
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards img {
+        width: 100%;  /* Faz com que a imagem ocupe toda a largura da div */
+        height: auto; /* Deixe a altura ser determinada pela largura */
+        max-height: 25vh;
+        object-fit: cover; /* Mantém o recorte adequado dentro da div */
+        border-radius: 1vh; /* Mantém o arredondamento das bordas */
+    }
+    
+    .cards > .card1, 
+    .cards > .card2, 
+    .cards > .card3 {
+        height: 68vh;
+        width: 43vh;
+        margin: 5vh;
+        flex: 0 0 auto; /* Impede que o flexbox altere a altura do card */
+        box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+        border-radius: 1vh;
+    }
+
+    .textos {
+        text-align: center;
+    }
+
+    .projetos {
+        margin-bottom: 6vh;
     }
 
 }
