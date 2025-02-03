@@ -179,8 +179,6 @@ main {
     align-items: center;
 }
 
-.backListaNivel, .frontListaNivel {}
-
 .backListaNivel img, .frontListaNivel img {
     width: 17vh; /* Ajuste conforme necessário */
     height: 3vh; /* Ajuste conforme necessário */
