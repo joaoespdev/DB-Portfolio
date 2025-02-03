@@ -25,7 +25,7 @@
 }
 
 html, body {
-    overflow-x: hidden; /* Evita rolagem horizontal indesejada */
+    overflow-x: hidden;
 }
 
 /*-=-=-=-=-=-=-=-=-=-=- NAV BAR -=-=-=-=-=-=-=-=-=-=-*/
@@ -46,13 +46,13 @@ a:hover {
 }
 
 nav {
-    display: flex;/*elementos um ao lado do outro*/
-    align-items: center; /*Verticalmente*/
+    display: flex;
+    align-items: center;
     font-family: tt-supermolot-bold;
     background: #85d4f4;
     height: 16vh;
     width: 100%;
-    z-index: 1000; /*garante que o nav fique acima de outros elementos*/
+    z-index: 1000;
 }
 
 main {
@@ -84,13 +84,13 @@ main {
 }
 
 .socialMedia img {
-    height: 5vh; /* Ajuste o tamanho das imagens para diminuir */
-    width: auto; /* Mantém a proporção da imagem */
-    transition: 0.3s; /* Adiciona transição para efeito de hover */
+    height: 5vh;
+    width: auto;
+    transition: 0.3s;
 }
 
 .socialMedia img:hover {
-    opacity: 0.7; /* Efeito de hover nas imagens */
+    opacity: 0.7;
 }
 
 /*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-*/
@@ -123,10 +123,10 @@ main {
 }
 
 .cards img {
-    width: 100%;  /* Faz com que a imagem ocupe toda a largura da div */
-    height: 35%; /* Faz com que a imagem ocupe toda a altura da div */
-    object-fit: cover; /* Mantém o recorte adequado dentro da div */
-    border-radius: 1vh; /* Mantém o arredondamento das bordas */
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+    border-radius: 1vh;
 }
 
 .cards > .card1, 
@@ -136,7 +136,7 @@ main {
     height: 68vh;
     width: 43vh;
     margin: 10vh;
-    flex: 1;/*Ocupem espaço igual dentro do flexbox*/
+    flex: 1;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
     border-radius: 1vh;
 }
@@ -194,45 +194,44 @@ button {
     margin-left: 0.5vh;
 }
 
-/*PERGUNTAR PRO GPT COMO NIVELAR A LISTA DE IMAGEM COM A LISTA NORMAL*/
 
 @media (max-width: 1150px) {
     .nav-container {
-        flex-direction: column; /* Alinha os itens verticalmente */
+        flex-direction: column;
         height: auto;
         padding: 2vh;
     }
 
     .logodb {
         height: 10vh;
-        margin-bottom: 2vh; /* Adiciona espaçamento entre o logo e o menu */
+        margin-bottom: 2vh;
         margin-left: 0;
     }
 
     .menu {
-        flex-direction: column; /* Alinha os itens do menu verticalmente */
-        align-items: center; /* Centraliza os itens do menu */
-        width: 100%; /* Garante que o menu ocupe toda a largura disponível */
-        margin-top: 2vh; /* Espaçamento entre o logo e o menu */
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 2vh;
     }
 
     .menu li {
-        margin-left: 0; /* Remove o margin-left quando o menu for vertical */
-        margin-bottom: 2vh; /* Adiciona espaçamento entre os itens */
+        margin-left: 0;
+        margin-bottom: 2vh;
     }
 
 
     .socialMedia {
-        justify-content: center; /* Centraliza os itens do menu */
-        width: 100%; /* Garante que o menu ocupe toda a largura disponível */
-        margin-top: 2vh; /* Espaçamento entre o logo e o menu */
+        justify-content: center;
+        width: 100%;
+        margin-top: 2vh;
         margin-right: 0;
         margin-left: 0;
     }
 
     .socialMedia li {
-        margin: 2vh; /*espaçamento entre os itens da lista e ao redor*/
-        margin-bottom: 2vh; /* Adiciona espaçamento entre os itens */
+        margin: 2vh;
+        margin-bottom: 2vh;
     }
 
     main {
@@ -243,8 +242,8 @@ button {
     }
 
     .visaoGeral {
-        flex-direction: column; /* Alinha os elementos em coluna ao invés de lado a lado */
-        align-items: center; /* Centraliza os elementos */
+        flex-direction: column;
+        align-items: center;
     }
 
     .cards {
@@ -253,11 +252,11 @@ button {
     }
 
     .cards img {
-        width: 100%;  /* Faz com que a imagem ocupe toda a largura da div */
-        height: auto; /* Deixe a altura ser determinada pela largura */
+        width: 100%;
+        height: auto;
         max-height: 25vh;
-        object-fit: cover; /* Mantém o recorte adequado dentro da div */
-        border-radius: 1vh; /* Mantém o arredondamento das bordas */
+        object-fit: cover;
+        border-radius: 1vh;
     }
     
     .cards > .card1, 
@@ -266,7 +265,7 @@ button {
         height: 68vh;
         width: 43vh;
         margin: 5vh;
-        flex: 0 0 auto; /* Impede que o flexbox altere a altura do card */
+        flex: 0 0 auto;
         box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
         border-radius: 1vh;
     }
