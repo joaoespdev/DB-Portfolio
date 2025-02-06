@@ -19,7 +19,7 @@
         <ul class="socialMedia">
             <li><a class="logo" href="https://github.com/joaoespdev"><img src="images/social1.png" class="logodb"></a></li>
             <li><a class="logo" href="https://www.linkedin.com/in/jo%C3%A3o-victor-espindola/"><img src="images/social2.png" class="logodb"></a></li>
-            <li><a class="logo" href="mailto:joao.espindola@dbserver.com.br"><img src="images/social3.png" class="logodb"></a></li>
+            <li><a class="logo" id="iconeEmail"><img src="images/social3.png" class="logodb"></a></li>
         </ul>
     </nav>
 
@@ -81,9 +81,13 @@
                     </div>
 
                 </div>
-                
+ 
             </div>
-
+            <script>
+                document.querySelector('#iconeEmail').addEventListener("click", function() {
+                    alert("O primeiro contato deve ser feito apenas com a gestora. Obrigado! ☺");
+                });
+            </script>
         </div>
 
     </main>

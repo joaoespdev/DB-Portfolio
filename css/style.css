@@ -183,6 +183,7 @@ main {
     width: 17vh;
     height: 3vh;
     margin-left: 8vh;
+    transform: scaleX(-1);
 }
 
 .backListaNivel li {
