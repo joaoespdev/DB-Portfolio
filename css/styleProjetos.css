@@ -179,7 +179,7 @@ button {
     margin-top: 2vh;
     border-radius: 1vh;
 }
-
+/*
 .doisBotoes {
     background: #414ABA;
     color: #fff;
@@ -189,11 +189,15 @@ button {
     margin-top: 2vh;
     border-radius: 1vh;
 }
+*/
 
 .divBotoes {
     margin-left: 0.5vh;
 }
 
+#acessar3 {
+    margin-top: 4vh;
+}
 
 @media (max-width: 1150px) {
     .nav-container {
