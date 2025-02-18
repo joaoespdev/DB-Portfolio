@@ -1,23 +1,23 @@
-# Portfolio - João Victor Espindola
+# Portfólio - João Victor Espíndola
 
 ![DB Logo](images/imageDB.png)
 
-## About the Project
-This repository contains the code for my portfolio, developed to showcase my skills, projects, and professional experience. The project was built using modern web technologies and follows best development practices.
+## Sobre o Projeto
+Este repositório contém o código do meu portfólio, desenvolvido para mostrar minhas habilidades, projetos e experiência profissional. O projeto foi construído usando tecnologias web modernas e segue as melhores práticas de desenvolvimento.
 <br><br>
-### Technologies Used
+### Tecnologias Utilizadas
 
 - **Front-end:** HTML5, CSS3
 <br>
 
-## Features
+## Funcionalidades
 
-- Professional presentation
-- Links to social media and resume
-- Listing and description of developed projects
-- Responsive and accessible design
+- Apresentação profissional
+- Links para redes sociais e currículo
+- Listagem e descrição dos projetos desenvolvidos
+- Design responsivo e acessível
 
-## Project Structure
+## Estrutura do Projeto
 
 ```
 /
@@ -30,11 +30,18 @@ This repository contains the code for my portfolio, developed to showcase my ski
 │
 ├── images/
 │   ├── imageDB.png
+│   ├── dbportfolio.png
+│   ├── footerFoto.png
 │   ├── social1.png
 │   ├── social2.png
 │   ├── social3.png
+│   ├── bolas1.png
+│   ├── bolas2.png
+│   ├── bolas3.png
+│   ├── bolas5.png
 │   ├── fotoJoao.jpg
 │   ├── naruto.jpeg
+│   ├── pessoaCrud.jpg
 │   ├── javascript.png
 │   ├── java.jpeg
 │
@@ -49,20 +56,18 @@ This repository contains the code for my portfolio, developed to showcase my ski
 └── README.md
 ```
 
-## How to Run the Project
+## Como Executar o Projeto
 
-1. You can open it directly with Github Pages at the link: https://joaoespdev.github.io/DB-Portfolio/
-> **Note:** This option is faster, but it doesn't load the images on the site correctly.
+1. Você pode abrir diretamente pelo Vercel: https://db-portfolio-git-main-joao-victor-espindolas-projects.vercel.app/index.html
 
-2. Open Visual Studio Code and clone this repository:
+2. Abra o Visual Studio Code e clone este repositório:
    ```sh
    git clone https://github.com/joaoespdev/portfolio-db.git
    ```
 
-3. With the Live Server (or Live Code) plugin installed, and with the index.html file open in the editor, click on "Go Live" in the bottom right corner and you will be redirected to the site. 
+3. Com o plugin Live Server (ou Live Code) instalado, e com o arquivo index.html aberto no editor, clique em "Go Live" no canto inferior direito e você será redirecionado para o site. 
 
-## Contact
+## Contato
 
-- **LinkedIn:** [João Victor Espindola](https://www.linkedin.com/in/jo%C3%A3o-victor-espindola/)
+- **LinkedIn:** [João Victor Espíndola](https://www.linkedin.com/in/jo%C3%A3o-victor-espindola/)
 - **E-mail:** [joao.espindola@dbserver.com.br](mailto:joao.espindola@dbserver.com.br)
-
