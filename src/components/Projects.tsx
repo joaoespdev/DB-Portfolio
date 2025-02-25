@@ -44,7 +44,7 @@ const Projects: React.FC = () => {
             <div className="card3">
               <img src="/images/dbportfolio.png" alt="Meu Portfólio" />
               <h3 className="mobileTitulo">Meu Portfólio</h3>
-              <p className="ferramentas1">HTML5, CSS3</p>
+              <p className="ferramentas1">HTML5, CSS3, React & Typescript</p>
               <p className="textoCard">
                 Este projeto destaca minhas principais competências como
                 desenvolvedor, aliando um design minimalista e responsivo.
