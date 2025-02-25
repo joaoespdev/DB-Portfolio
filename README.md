@@ -1,13 +1,13 @@
 # Portfólio - João Victor Espíndola
 
-![DB Logo](images/imageDB.png)
+![DB Logo](public/images/imageDB.png) <img src="public/images/reactsymbol.png" alt="React Logo" width="200">
 
 ## Sobre o Projeto
 Este repositório contém o código do meu portfólio, desenvolvido para mostrar minhas habilidades, projetos e experiência profissional. O projeto foi construído usando tecnologias web modernas e segue as melhores práticas de desenvolvimento.
 <br><br>
 ### Tecnologias Utilizadas
 
-- **Front-end:** HTML5, CSS3
+- HTML5, CSS3, React & TypeScript
 <br>
 
 ## Funcionalidades
@@ -16,6 +16,7 @@ Este repositório contém o código do meu portfólio, desenvolvido para mostrar
 - Links para redes sociais e currículo
 - Listagem e descrição dos projetos desenvolvidos
 - Design responsivo e acessível
+- Modo noturno
 
 ## Estrutura do Projeto
 
@@ -44,6 +45,13 @@ Este repositório contém o código do meu portfólio, desenvolvido para mostrar
 │   ├── pessoaCrud.jpg
 │   ├── javascript.png
 │   ├── java.jpeg
+│   ├── dbBranco.png
+│   ├── linkedinBranco.png
+│   ├── redditBranco.png
+│   ├── footerBranco.png
+│   ├── sol.png
+│   ├── lua.png
+│   ├── reactsymbol.png
 │
 ├── fonts/
 │   ├── robotoflex-regular.ttf
