@@ -1,46 +1,73 @@
-# Getting Started with Create React App
+# Portfólio - João Victor Espíndola
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![DB Logo](images/imageDB.png)
 
-## Available Scripts
+## Sobre o Projeto
+Este repositório contém o código do meu portfólio, desenvolvido para mostrar minhas habilidades, projetos e experiência profissional. O projeto foi construído usando tecnologias web modernas e segue as melhores práticas de desenvolvimento.
+<br><br>
+### Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **Front-end:** HTML5, CSS3
+<br>
 
-### `npm start`
+## Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Apresentação profissional
+- Links para redes sociais e currículo
+- Listagem e descrição dos projetos desenvolvidos
+- Design responsivo e acessível
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Estrutura do Projeto
 
-### `npm test`
+```
+/
+├── css/
+│   ├── style.css
+│   ├── styleProjetos.css
+│
+├── docs/
+│   ├── curriculo.pdf
+│
+├── images/
+│   ├── imageDB.png
+│   ├── dbportfolio.png
+│   ├── footerFoto.png
+│   ├── social1.png
+│   ├── social2.png
+│   ├── social3.png
+│   ├── bolas1.png
+│   ├── bolas2.png
+│   ├── bolas3.png
+│   ├── bolas5.png
+│   ├── fotoJoao.jpg
+│   ├── naruto.jpeg
+│   ├── pessoaCrud.jpg
+│   ├── javascript.png
+│   ├── java.jpeg
+│
+├── fonts/
+│   ├── robotoflex-regular.ttf
+│   ├── tt-supermolot-regular.otf
+│   ├── tt-supermolot-bold.ttf
+│   ├── robotoflex-variants.ttf
+│
+├── index.html
+├── projetos.html
+└── README.md
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar o Projeto
 
-### `npm run build`
+1. Você pode abrir diretamente pelo Vercel: https://db-portfolio-git-main-joao-victor-espindolas-projects.vercel.app/index.html
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Abra o Visual Studio Code e clone este repositório:
+   ```sh
+   git clone https://github.com/joaoespdev/portfolio-db.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Com o plugin Live Server (ou Live Code) instalado, e com o arquivo index.html aberto no editor, clique em "Go Live" no canto inferior direito e você será redirecionado para o site. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Contato
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **LinkedIn:** [João Victor Espíndola](https://www.linkedin.com/in/jo%C3%A3o-victor-espindola/)
+- **E-mail:** [joao.espindola@dbserver.com.br](mailto:joao.espindola@dbserver.com.br)
