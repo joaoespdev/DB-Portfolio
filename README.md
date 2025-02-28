@@ -66,7 +66,7 @@ Este repositório contém o código do meu portfólio, desenvolvido para mostrar
 
 ## Como Executar o Projeto
 
-1. Você pode abrir diretamente pelo Vercel: https://db-portfolio-git-main-joao-victor-espindolas-projects.vercel.app/index.html
+1. Você pode abrir diretamente pelo Vercel: https://db-portfolio-git-main-joao-victor-espindolas-projects.vercel.app/
 
 2. Abra o Visual Studio Code e clone este repositório:
    ```sh
