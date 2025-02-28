@@ -238,6 +238,7 @@ button#theme-switch {
 .habilidades {
   display: flex;
   flex-direction: column;
+  white-space: nowrap;
 }
 
 .habilidadesTexto {
