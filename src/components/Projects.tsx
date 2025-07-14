@@ -1,5 +1,5 @@
-import React from 'react';
-import '../App.css';
+import React from "react";
+import "../App.css";
 
 const Projects: React.FC = () => {
   return (
@@ -11,6 +11,58 @@ const Projects: React.FC = () => {
             <h1 className="projetos">Projetos</h1>
           </div>
           <div className="cards">
+            <div className="card1">
+              <img src="/images/biblioteca.png" alt="Biblioteca Nest" />
+              <h3 className="bibliotecaTitulo">Biblioteca Nest JS</h3>
+              <p className="ferramentas1">
+                Type, PostgreSQL, Knex, ESLint, Prettier
+              </p>
+              <p className="textoCard">
+                API REST desenvolvida para gerenciar o sistema de aluguel de
+                livros de uma biblioteca. Esta API permite o gerenciamento de
+                livros, autores, locatários e aluguéis com regras de negócio e
+                relacionamentos apropriados.
+              </p>
+              <a href="https://github.com/joaoespdev/biblioteca-nest">
+                <button className="acessar">GitHub</button>
+              </a>
+            </div>
+
+            <div className="card2">
+              <img src="/images/jarvis.png" alt="Gestor Tarefas" />
+              <h3 className="blogTitulo">Gestor de Tarefas</h3>
+              <p className="ferramentas1">NestJS, TypeScript, JWT, bcrypt</p>
+              <p className="textoCard">
+                API RESTful desenvolvida com NestJS para gerenciamento de
+                tarefas com autenticação JWT. O sistema permite criar, listar,
+                atualizar e deletar tarefas, além de contar com um sistema de
+                autenticação de usuários.
+              </p>
+              <a href="https://github.com/joaoespdev/Task-Management-NestJS">
+                <button className="acessar">GitHub</button>
+              </a>
+            </div>
+
+            <div className="card3">
+              <img src="/images/veiculos.png" alt="Crud Veículos" />
+              <h3 className="vehicleTitulo">Crud Veículos</h3>
+              <p className="ferramentas1">
+                Spring Boot, H2, JPA, Lombok, Swagger
+              </p>
+              <p className="textoCard">
+                API RESTful desenvolvida em Spring para gerenciamento de
+                diferentes tipos de veículos. A API permite criação, leitura,
+                atualização e exclusão.
+              </p>
+              <a href="https://github.com/joaoespdev/Veiculo-CRUD-DB">
+                <button className="acessar" id="acessar3">
+                  GitHub
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div className="cardsSegundaLinha">
             <div className="card1">
               <img src="/images/naruto.jpeg" alt="Desafio Ninja" />
               <h3 className="calculadoraTitulo">Desafio Ninja</h3>
@@ -50,7 +102,9 @@ const Projects: React.FC = () => {
                 desenvolvedor, aliando um design minimalista e responsivo.
               </p>
               <a href="https://github.com/joaoespdev/DB-Portfolio">
-                <button className="acessar" id="acessar3">GitHub</button>
+                <button className="acessar" id="acessar3">
+                  GitHub
+                </button>
               </a>
             </div>
           </div>
