@@ -99,7 +99,7 @@ html, body {
 }
 
 .acessar {
-  background: #e9ae0b;
+  background: linear-gradient(170deg, #e9ae0b 50%, #cf9b0a 50%);
   color: #fff;
 }
   }
@@ -476,7 +476,7 @@ button {
 }
 
 .acessar {
-  background: #414ABA;
+  background: linear-gradient(170deg, #414ABA 50%, #373d8f 50%);
   color: #fff;
   height: 6vh;
   width: 38vh;
