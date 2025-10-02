@@ -25,7 +25,7 @@ const Navbar: React.FC = () => {
           <Link to="/">Sobre</Link>
         </li>
         <li>
-          <a href="https://1drv.ms/w/c/930df5f26dae9c78/ESwwWHJAXphBlKNy7NsgkEQBTmpxdgheIO1XAmF-iMAI7A?e=CL6pKr">
+          <a href="https://1drv.ms/w/c/930df5f26dae9c78/EdHtkN_RLEZFrLaxLDeF8J4BmLtD7mHEvNLcP5QPBGjI0A?e=IgeGJv">
             Currículo
           </a>
         </li>
