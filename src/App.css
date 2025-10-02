@@ -442,6 +442,7 @@ main {
   border-radius: 1vh;
 }
 
+/* Fazendo os cards terem posicionamento relativo para acomodar o botão fixo */
 .cards > .card1, 
 .cards > .card2, 
 .cards > .card3,
@@ -451,6 +452,7 @@ main {
 .cardsTerceiraLinha > .card1,
 .cardsTerceiraLinha > .card2,
 .cardsTerceiraLinha > .card3 {
+  position: relative;
   background: rgb(239, 239, 239);
   color:#292929;
   height: 68vh;
@@ -458,6 +460,9 @@ main {
   flex: 1;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   border-radius: 1vh;
+  padding-bottom: 10vh; /* Espaço para o botão na parte inferior */
+  display: flex;
+  flex-direction: column;
 }
 
 .cards h3, 
@@ -492,15 +497,21 @@ button {
   border: none;
 }
 
+/* Fixando o botão na parte inferior do card */
 .acessar {
+  position: absolute;
+  bottom: 3vh;
+  left: 50%;
+  transform: translateX(-50%);
   background: linear-gradient(170deg, #414ABA 50%, #373d8f 50%);
   color: #fff;
   height: 6vh;
   width: 38vh;
-  margin-left: 2.5vh;
-  margin-top: 2vh;
   border-radius: 1vh;
+  margin-left: 0;
+  margin-top: 0;
 }
+
 /*
 .doisBotoes {
   background: #414ABA;
@@ -517,8 +528,9 @@ button {
   margin-left: 0.5vh;
 }
 
+/* Não é mais necessário com o posicionamento absoluto */
 #acessar3 {
-  margin-top: 4vh;
+  /* margin-top: 4vh; */ 
 }
 
 footer {
@@ -719,7 +731,7 @@ footer {
   }
 
   .projects {
-    height: 810vh; /* Aumentado de 540vh para 810vh para acomodar a terceira linha */
+    height: 790vh; /* Aumentado de 540vh para 810vh para acomodar a terceira linha */
   }
 
   .visaoGeral {
@@ -872,6 +884,13 @@ footer {
 
   .backListaNivel, .frontListaNivel {
     margin-left: 8vh;
+  }
+  
+  /* Ajustar os botões em telas menores */
+  .acessar {
+    width: 80%;
+    font-size: 2.4vh;
+    bottom: 2vh;
   }
 }
 
