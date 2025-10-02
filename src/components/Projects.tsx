@@ -12,11 +12,55 @@ const Projects: React.FC = () => {
           </div>
           <div className="cards">
             <div className="card1">
-              <img src="/images/biblioteca.png" alt="Biblioteca Nest" />
-              <h3 className="bibliotecaTitulo">Biblioteca Nest JS</h3>
+              <img src="/images/let.jpg" alt="API Gateway" />
+              <h3 className="calculadoraTitulo">Em breve...</h3>
+              <p className="ferramentas1"></p>
+              <p className="textoCard"></p>
+              <a href="http://localhost:3000/projetos">
+                <button className="acessar">GitHub</button>
+              </a>
+            </div>
+
+            <div className="card2">
+              <img src="/images/jarvis2.jpg" alt="Gestor Tarefas 2.0" />
+              <h3 className="gestorTitulo">Gestor de Tarefas 2.0 (remake)</h3>
               <p className="ferramentas1">
-                Type, PostgreSQL, Knex, ESLint, Prettier
+                Nest.js, JWT, bcrypt, Swagger, Jest
               </p>
+              <p className="textoCard">
+                Novas funcionalidades: 1º Sistema completo de cadastro e login
+                com permissões únicas para usuários; 2º Estatísticas de
+                produtividade individuais; 3º Adoção do Knex...
+              </p>
+              <a href="https://github.com/joaoespdev/chatbot-ia">
+                <button className="acessar">GitHub</button>
+              </a>
+            </div>
+
+            <div className="card3">
+              <img src="/images/loja.png" alt="Loja-Fullstack" />
+              <h3 className="lojaTitulo">Loja Full Stack</h3>
+              <p className="ferramentas1">
+                React, TypeScript, Vite, CSS3, Jest
+              </p>
+              <p className="textoCard">
+                Uma loja moderna e responsiva, desenvolvida com React e
+                TypeScript. O projeto apresenta um design minimalista e uma
+                experiência de usuário fluida em todos os dispositivos.
+              </p>
+              <a href="https://github.com/joaoespdev/dashboard-react">
+                <button className="acessar" id="acessar3">
+                  GitHub
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div className="cardsTerceiraLinha">
+            <div className="card1">
+              <img src="/images/biblioteca.png" alt="Biblioteca Nest" />
+              <h3 className="calculadoraTitulo">Biblioteca API</h3>
+              <p className="ferramentas1">NestJS, TypeORM, PostgreSQL, JWT</p>
               <p className="textoCard">
                 API REST desenvolvida para gerenciar o sistema de aluguel de
                 livros de uma biblioteca. Esta API permite o gerenciamento de

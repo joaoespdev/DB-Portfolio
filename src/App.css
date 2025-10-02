@@ -84,7 +84,10 @@ html, body {
 .cards > .card3,
 .cardsSegundaLinha > .card1,
 .cardsSegundaLinha > .card2,
-.cardsSegundaLinha > .card3 {
+.cardsSegundaLinha > .card3,
+.cardsTerceiraLinha > .card1,
+.cardsTerceiraLinha > .card2,
+.cardsTerceiraLinha > .card3 {
   background: rgb(12, 12, 12);
   color:#eee4e9;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
@@ -146,7 +149,7 @@ main {
 }
 
 .projects {
-  height: 200vh;
+  height: 300vh; /* Aumentada de 300vh para 400vh para acomodar a quarta linha */
 }
 
 .menu {
@@ -230,6 +233,11 @@ button#theme-switch {
 
 .imagemHabilidades {
   margin-right: 10vh;
+}
+
+.fotoJoaoDiv {
+  display: flex;
+  justify-content: center;
 }
 
 .fotoJoao {
@@ -412,18 +420,22 @@ main {
 }
 
 .cards,
-.cardsSegundaLinha {
+.cardsSegundaLinha,
+.cardsTerceiraLinha {
   display: flex;
   flex-direction: row;
   justify-content: center;
   gap: 30vh;
 }
 
-.cardsSegundaLinha {
+.cardsSegundaLinha,
+.cardsTerceiraLinha {
   margin-top: 10vh;
 }
 
-.cards img, .cardsSegundaLinha img {
+.cards img, 
+.cardsSegundaLinha img,
+.cardsTerceiraLinha img {
   width: 100%;
   height: 35%;
   object-fit: cover;
@@ -435,7 +447,10 @@ main {
 .cards > .card3,
 .cardsSegundaLinha > .card1,
 .cardsSegundaLinha > .card2,
-.cardsSegundaLinha > .card3 {
+.cardsSegundaLinha > .card3,
+.cardsTerceiraLinha > .card1,
+.cardsTerceiraLinha > .card2,
+.cardsTerceiraLinha > .card3 {
   background: rgb(239, 239, 239);
   color:#292929;
   height: 68vh;
@@ -445,7 +460,9 @@ main {
   border-radius: 1vh;
 }
 
-.cards h3, .cardsSegundaLinha h3 {
+.cards h3, 
+.cardsSegundaLinha h3,
+.cardsTerceiraLinha h3 {
   font-family: tt-supermolot-bold;
   font-size: 4.5vh;
   margin-left: 3vh;
@@ -562,10 +579,19 @@ footer {
       height: 3.3vh;
   }
 
-  .cards, .cardsSegundaLinha {
+  .cards, 
+  .cardsSegundaLinha,
+  .cardsTerceiraLinha {
       gap: 15vh;
   }
 
+}
+
+@media (max-width: 1600px) {
+
+  .home {
+    height: 145vh;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -637,7 +663,9 @@ footer {
       margin-left: 10vh;
   }
 
-  .cards, .cardsSegundaLinha {
+  .cards, 
+  .cardsSegundaLinha,
+  .cardsTerceiraLinha {
       gap: 5vh;
   }
   
@@ -691,7 +719,7 @@ footer {
   }
 
   .projects {
-    height: 540vh;
+    height: 810vh; /* Aumentado de 540vh para 810vh para acomodar a terceira linha */
   }
 
   .visaoGeral {
@@ -713,12 +741,16 @@ footer {
       margin-bottom: 5vh;
   }
 
-  .cards, .cardsSegundaLinha {
+  .cards, 
+  .cardsSegundaLinha,
+  .cardsTerceiraLinha {
       flex-direction: column;
       align-items: center;
   }
 
-  .cards img, .cardsSegundaLinha img {
+  .cards img, 
+  .cardsSegundaLinha img,
+  .cardsTerceiraLinha img {
       width: 100%;
       height: auto;
       max-height: 25vh;
@@ -731,7 +763,10 @@ footer {
 .cards > .card3,
 .cardsSegundaLinha > .card1,
 .cardsSegundaLinha > .card2,
-.cardsSegundaLinha > .card3 {
+.cardsSegundaLinha > .card3,
+.cardsTerceiraLinha > .card1,
+.cardsTerceiraLinha > .card2,
+.cardsTerceiraLinha > .card3 {
       height: 68vh;
       width: 43vh;
       margin: 5vh;
@@ -859,12 +894,16 @@ footer {
       margin-bottom: 5vh;
   }
 
-  .cards, .cardsSegundaLinha {
+  .cards, 
+  .cardsSegundaLinha,
+  .cardsTerceiraLinha {
       flex-direction: column;
       align-items: center;
   }
 
-  .cards img, .cardsSegundaLinha img {
+  .cards img, 
+  .cardsSegundaLinha img,
+  .cardsTerceiraLinha img {
       width: 100%;
       height: auto;
       max-height: 25vh;
@@ -877,7 +916,10 @@ footer {
 .cards > .card3,
 .cardsSegundaLinha > .card1,
 .cardsSegundaLinha > .card2,
-.cardsSegundaLinha > .card3 {
+.cardsSegundaLinha > .card3,
+.cardsTerceiraLinha > .card1,
+.cardsTerceiraLinha > .card2,
+.cardsTerceiraLinha > .card3 {
       height: 68vh;
       width: 43vh;
       margin: 5vh;

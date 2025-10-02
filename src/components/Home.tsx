@@ -41,11 +41,9 @@ const Home: React.FC = () => {
         </div>
 
         <div className="imagemHabilidades">
-          <img
-            src="/images/fotoJoao.jpg"
-            alt="João Victor"
-            className="fotoJoao"
-          />
+          <div className="fotoJoaoDiv">
+            <img src="/images/eu.jpg" alt="João Victor" className="fotoJoao" />
+          </div>
 
           <div className="habilidades">
             <h2 className="habilidadesTexto">Habilidades</h2>
@@ -58,12 +56,13 @@ const Home: React.FC = () => {
                 <li>JAVA</li>
                 <li>NODE</li>
                 <li>KNEX JS</li>
+                <li>JEST</li>
                 <li>SQL</li>
               </ul>
 
               <ul className="backListaNivel">
                 <li>
-                  <img src="/images/bolas3.png" alt="Nível" />
+                  <img src="/images/bolas4.png" alt="Nível" />
                 </li>
                 <li>
                   <img src="/images/bolas3.png" alt="Nível" />
@@ -75,10 +74,13 @@ const Home: React.FC = () => {
                   <img src="/images/bolas3.png" alt="Nível" />
                 </li>
                 <li>
-                  <img src="/images/bolas2.png" alt="Nível" />
+                  <img src="/images/bolas3.png" alt="Nível" />
                 </li>
                 <li>
-                  <img src="/images/bolas2.png" alt="Nível" />
+                  <img src="/images/bolas3.png" alt="Nível" />
+                </li>
+                <li>
+                  <img src="/images/bolas3.png" alt="Nível" />
                 </li>
                 <li>
                   <img src="/images/bolas2.png" alt="Nível" />
