@@ -1,0 +1,17 @@
+/* src/styles/Footer.css */
+/* ========================== */
+/* FOOTER STYLES */
+/* ========================== */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #85d4f4;
+  height: 16vh;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logoDBFooter {
+  height: 10vh;
+}

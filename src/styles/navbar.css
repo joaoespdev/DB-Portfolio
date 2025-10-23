@@ -1,0 +1,173 @@
+/* src/styles/Navbar.css */
+/* ========================== */
+/* NAVBAR STYLES */
+/* ========================== */
+.nav-container {
+  display: flex;
+  align-items: center;
+  font-family: tt-supermolot-bold;
+  background: #85d4f4;
+  height: 16vh;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logodb {
+  height: 8vh;
+  margin-left: 10vh;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin-left: 10vh;
+  font-size: 1.5vh;
+}
+
+.menu li {
+  letter-spacing: 0.2vh;
+  margin-left: 18vh;
+}
+
+.socialMedia {
+  list-style: none;
+  display: flex;
+  margin-left: 55vh;
+}
+
+.socialMedia li {
+  letter-spacing: 0.2vh;
+}
+
+.socialMedia img {
+  height: 3.5vh;
+  width: auto;
+  transition: 0.3s;
+}
+
+.socialMedia img:hover {
+  opacity: 0.7;
+}
+
+button#theme-switch {
+  background: none;
+}
+
+/* Media Queries para Navbar */
+@media (min-width: 3400px) {
+  .socialMedia {
+    margin-left: 110vh;
+  }
+
+  .nav-container {
+    height: 12vh;
+  }
+}
+
+@media (max-width: 2650px) {
+  .menu {
+    margin-left: 0px;
+  }
+
+  .menu li {
+    margin-left: 150px;
+  }
+
+  .socialMedia {
+    margin-left: 190px;
+  }
+
+}
+
+@media (max-width: 1920px) {
+}
+
+@media (max-width: 1700px) {
+
+  .logodb {
+    height: 7vh;
+    margin-left: 10vh;
+  }
+
+    .menu {
+    margin-left: 0px;
+  }
+
+  .menu li {
+    margin-left: 50px;
+  }
+
+  .socialMedia {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .logodb {
+    height: 7vh;
+    margin-left: 100px;
+  }
+
+    .menu {
+    margin-left: 0px;
+  }
+
+  .menu li {
+    margin-left: 50px;
+  }
+
+  .socialMedia {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu li {
+    margin-left: 10vh;
+  }
+
+  .socialMedia {
+    margin-left: 10vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .nav-container {
+    flex-direction: column;
+    height: auto;
+    padding: 2vh;
+  }
+
+  .logodb {
+    height: 7vh;
+    margin-bottom: 2vh;
+    margin-left: 0;
+  }
+
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 2vh;
+  }
+
+  .menu li {
+    margin-left: 0;
+    margin-bottom: 2vh;
+    font-size: 25px;
+  }
+
+  .socialMedia {
+    justify-content: center;
+    width: 100%;
+    margin-top: 2vh;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .socialMedia li {
+    margin: 2vh;
+    margin-bottom: 2vh;
+  }
+}

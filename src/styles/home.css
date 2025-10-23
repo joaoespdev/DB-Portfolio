@@ -1,0 +1,235 @@
+/* src/styles/Home.css */
+/* ========================== */
+/* HOME STYLES */
+/* ========================== */
+.home {
+  height: 130vh;
+}
+
+.textos {
+  color: #292929;
+  margin-right: 18vh;
+  margin-left: 10vh;
+}
+
+.meuNomeE {
+  font-family: tt-supermolot-bold;
+  font-size: 4.5vh;
+  margin-top: 13vh;
+}
+
+.nome {
+  font-family: robotoflex-variants;
+  font-size: 10vh;
+  margin-top: 3vh;
+}
+
+.souTrainee {
+  font-family: tt-supermolot-regular;
+  font-size: 4.5vh;
+  margin-top: 2vh;
+}
+
+.sobreMim {
+  font-family: tt-supermolot-bold;
+  font-size: 3vh;
+  margin-top: 12vh;
+}
+
+.textoSobreMim {
+  font-family: robotoflex-regular;
+  font-size: 2.5vh;
+  margin-top: 5vh;
+}
+
+.visaoGeral {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagemHabilidades {
+  margin-right: 10vh;
+}
+
+.fotoJoaoDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.fotoJoao {
+  height: 40vh;
+  display: flex;
+  margin-top: 13vh;
+}
+
+.habilidades {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.habilidadesTexto {
+  font-family: tt-supermolot-bold;
+  color: #292929;
+  font-size: 4vh;
+  margin-top: 8vh;
+  margin-bottom: 5vh;
+}
+
+.backEnd {
+  font-family: tt-supermolot-bold;
+  margin-bottom: 2vh;
+}
+
+.backEndLista {
+  font-family: robotoflex-regular;
+  margin-left: 3vh;
+}
+
+.frontEnd {
+  font-family: tt-supermolot-bold;
+  margin-top: 6vh;
+  margin-bottom: 2vh;
+}
+
+.frontEndLista {
+  font-family: robotoflex-regular;
+  margin-left: 3vh;
+}
+
+.backListaNivelDIV, .frontListaNivelDIV {
+  display: flex;
+  justify-content: space-between;
+  width: 57%;
+}
+
+.backListaNivelDIV ul li, .frontListaNivelDIV ul li {
+  margin-left: 10px;
+  list-style: none;
+  color: #292929;
+}
+
+.backListaNivelDIV, .frontListaNivelDIV ul {
+  line-height: 30px;
+}
+
+.backListaNivel img, .frontListaNivel img {
+  transform: scaleX(-1);
+}
+
+.backListaNivel li, .frontListaNivel li {
+  line-height: 24px;
+}
+
+/* Media Queries para Home */
+@media (max-width: 1600px) {
+  .home {
+    height: 145vh;
+  }
+}
+
+@media (max-width: 1280px) {
+  .home {
+    height: 150vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .meuNomeE {
+    font-size: 3.5vh;
+  }
+
+  .nome {
+    font-size: 7vh;
+  }
+
+  .souTrainee {
+    font-size: 3.5vh;
+  }
+
+  .sobreMim {
+    font-size: 3vh;
+  }
+
+  .textoSobreMim {
+    font-size: 2.5vh;
+  }
+}
+
+@media (max-width: 450px) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    height: 210vh;
+    padding: 2vh;
+  }
+
+  .visaoGeral {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8vh;
+  }
+
+  .fotoJoao {
+    height: 35vh;
+    margin-top: 10vh;
+  }
+
+  .meuNomeE {
+    margin-top: 10vh;
+    font-size: 2.5vh;
+    text-align: center;
+  }
+
+  .nome {
+    font-size: 4.5vh;
+    white-space: nowrap;
+    text-align: center;
+  }
+
+  .souTrainee {
+    font-size: 2.5vh;
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .sobreMim {
+    text-align: center;
+    font-size: 2.5vh;
+    margin-top: 10vh;
+  }
+
+  .textoSobreMim {
+    font-size: 1.5vh;
+    margin-left: 0;
+    text-align: center;
+    width: 100%; 
+  }
+
+  .habilidades {
+    margin-left: 5vh;
+    transform: scale(0.8);
+  }
+
+  .backListaNivel, .frontListaNivel {
+    margin-left: 8vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .home {
+    height: 230vh;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 380px) {
+  .home {
+    height: 230vh;
+  }
+
+  .fotoJoao {
+    height: 40vh;
+  }
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../App.css";
+import "../styles/navbar.css";
 import { useDarkMode } from "../../src/DarkModeContext";
 
 const Navbar: React.FC = () => {

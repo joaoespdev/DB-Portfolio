@@ -1,0 +1,73 @@
+/* src/styles/darkMode.css */
+/* ========================== */
+/* DARK MODE STYLES */
+/* ========================== */
+body.dark {
+  nav {
+    background: #111111;
+  }
+
+  footer {
+    background: #111111;
+  }
+
+  main {
+    background: #292929;
+  }
+
+  .home {
+    color:#eee4e9;
+  }
+
+  .textos {
+    color: #eee4e9;
+  }
+
+  .habilidadesTexto {
+    color: #eee4e9;
+  }
+
+  .backEndLista li, .frontEndLista li {
+    color: #eee4e9;
+  }
+
+  .meus {
+    color: #eee4e9;
+  }
+
+  .projetos {
+    color: #eee4e9;
+  }
+
+  .cards > .card1,
+  .cards > .card2,
+  .cards > .card3,
+  .cardsSegundaLinha > .card1,
+  .cardsSegundaLinha > .card2,
+  .cardsSegundaLinha > .card3,
+  .cardsTerceiraLinha > .card1,
+  .cardsTerceiraLinha > .card2,
+  .cardsTerceiraLinha > .card3 {
+    background: rgb(12, 12, 12);
+    color:#eee4e9;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+
+  .ferramentas1 {
+    color: #e9ae0b;
+  }
+
+  .textoCard {
+    color:#eee4e9;
+  }
+
+  .acessar {
+    background: linear-gradient(170deg, #e9ae0b 50%, #cf9b0a 50%);
+    color: #fff;
+  }
+}
+
+/* Outros ajustes para dark mode */
+body.dark a {
+  color: rgb(238, 233, 233);
+}
