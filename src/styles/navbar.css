@@ -74,12 +74,15 @@ button#theme-switch {
   }
 
   .socialMedia {
-    margin-left: 190px;
+    margin-left: 580px;
   }
 
 }
 
 @media (max-width: 1920px) {
+    .socialMedia {
+    margin-left: 230px;
+  }
 }
 
 @media (max-width: 1700px) {
@@ -121,17 +124,7 @@ button#theme-switch {
   }
 }
 
-@media (max-width: 800px) {
-  .menu li {
-    margin-left: 10vh;
-  }
-
-  .socialMedia {
-    margin-left: 10vh;
-  }
-}
-
-@media (max-width: 450px) {
+@media (max-width: 1024px) {
   .nav-container {
     flex-direction: column;
     height: auto;

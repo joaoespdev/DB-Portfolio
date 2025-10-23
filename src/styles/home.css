@@ -134,29 +134,7 @@
   }
 }
 
-@media (max-width: 800px) {
-  .meuNomeE {
-    font-size: 3.5vh;
-  }
-
-  .nome {
-    font-size: 7vh;
-  }
-
-  .souTrainee {
-    font-size: 3.5vh;
-  }
-
-  .sobreMim {
-    font-size: 3vh;
-  }
-
-  .textoSobreMim {
-    font-size: 2.5vh;
-  }
-}
-
-@media (max-width: 450px) {
+@media (max-width: 1024px) {
   .home {
     display: flex;
     flex-direction: column;
@@ -220,7 +198,7 @@
 
 @media (max-width: 400px) {
   .home {
-    height: 230vh;
+    height: 260vh;
   }
 }
 
